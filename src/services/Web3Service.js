@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import ABI from "./ABI.json"
 
-const CONTRACT_ADDRESS = "0x5133a3c9b4947e9130d119a639dd9fe86ea963c1";
+const CONTRACT_ADDRESS = "__SMARTCONTRACT_DEPLOY_ADDRESS__";
 
 function getContract(){
     if(!window.ethereum) throw new Error("Sem MetaMask instalada!")
